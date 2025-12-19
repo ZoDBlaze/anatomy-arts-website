@@ -61,6 +61,28 @@ body {
 }
 
 /* ==============================
+   LOGO STYLING
+============================== */
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 34px;
+  width: auto;
+}
+
+.logo span {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #0f4c75;
+}
+
+
+/* ==============================
    HEADER
 ============================== */
 
@@ -190,3 +212,4 @@ section p {
     padding: 30px 22px;
   }
 }
+
